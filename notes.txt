@@ -1,0 +1,11 @@
+Transform 
+Transition => Nos permite mover un elemento como en a y b 
+pero no puede hacer nada más durante ese intervalo
+(Ejemplo: Que cuando se mueva de A a B el elemento sea rojo)
+Animation => Acá podemos controlar el tiempo en cuanto se
+haga la transicion A al B
+(Ejemplo: Que cuando se mueva de A a B el elemento sea rojo
+luego amarillo , que parpadeé)
+Animable: que sus valores cambian gradualmente durante un 
+perido de tiempo determinado
+PSEUDO-CLASES y PSEUDO-ELEMENTOS.-

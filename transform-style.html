@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    .container{
+        /*relativo es el padre*/
+        position:relative;
+        width:100px;
+        height:100px;
+        border:5px solid hotpink;
+        /*L100pxos elementos van a tener una
+        profundidad de */
+        perspective:100px;
+    }
+    .item{
+        /*absolute es el hijo*/
+        position:absolute;
+        width:100px;
+        height:100px;
+        background:papayawhip;
+        opacity:0.5;
+        border:3px solid hotpink;
+        /*le decimos que ahora sea en 3D y no 2d*/
+        transform-style:preserve-3d;
+        transform:rotateX(90deg);
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="item"></div>
+</div>
+</body>
+</html>
